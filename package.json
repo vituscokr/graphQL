@@ -1,0 +1,29 @@
+{
+  "name": "graphql",
+  "version": "0.0.1",
+  "description": "GraphQL 테스트",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vituscokr/graphQL.git"
+  },
+  "author": "Gyeongtae Nam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vituscokr/graphQL/issues"
+  },
+  "homepage": "https://github.com/vituscokr/graphQL#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-node": "0.0.1-security",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^1.19.3"
+  }
+}

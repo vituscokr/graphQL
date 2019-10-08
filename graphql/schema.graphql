@@ -1,0 +1,18 @@
+
+type User {
+  id:Int!
+  name:String!
+  email:String!
+  age:Int!
+  gender:String!
+}
+
+type Query {
+  users:[User]!
+  user(id:Int!):User
+}
+
+type Mutation {
+  addUser(name:String!, email:String!):User!
+  deleteUser(id:Int!):Boolean!
+}
